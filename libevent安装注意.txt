@@ -1,0 +1,1 @@
+      在linux安装libevent之后要，要记得在yum install libevent-devel这样在C语言中调用libevent才不会出错。
