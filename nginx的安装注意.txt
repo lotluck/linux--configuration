@@ -1,0 +1,27 @@
+
+在安装nignx的时候可能会少几个模块，我的安装环境一直是centos7.0，根据下面的提示进行安装,有时候是两个，有时候是三个
+
+yum install pcre-devel
+
+yum install openssl-devel
+
+yum install zlib-devel
+
+  
+
+
+如果安装成功后，就是下面这个样子了。
+
+
+nginx path prefix: "/usr/local/nginx"
+nginx binary file: "/usr/local/nginx/sbin/nginx"
+nginx configuration prefix: "/usr/local/nginx/conf"
+nginx configuration file: "/usr/local/nginx/conf/nginx.conf"
+nginx pid file: "/usr/local/nginx/logs/nginx.pid"
+nginx error log file: "/usr/local/nginx/logs/error.log"
+nginx http access log file: "/usr/local/nginx/logs/access.log"
+nginx http client request body temporary files: "client_body_temp"
+nginx http proxy temporary files: "proxy_temp"
+nginx http fastcgi temporary files: "fastcgi_temp"
+nginx http uwsgi temporary files: "uwsgi_temp"
+nginx http scgi temporary files: "scgi_temp"
