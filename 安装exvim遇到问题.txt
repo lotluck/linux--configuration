@@ -1,0 +1,12 @@
+tar zxvf exvim-main-0.5.0.tar.gz
+
+cd exvim-main-0.5.0
+
+sh unix/repalce-my-vim.sh
+
+
+
+
+Taglist: Exuberant ctags (http://ctags.sf.net) not found in PATH. Plugin is not loaded.
+
+环境centos7.0，遇到这个问题直接yun install ctags就可以解决了
