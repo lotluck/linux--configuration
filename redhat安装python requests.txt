@@ -1,0 +1,7 @@
+环境就是redhat 7.0 
+
+一般就是  yum list | grep "requests" 看有哪些包可以用
+
+然后呢    yum install python-requests.noarch
+
+最后打开python   输入 import requests检查是否安装成功
