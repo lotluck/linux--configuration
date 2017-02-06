@@ -1,0 +1,18 @@
+wget http://www.ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz
+
+tar zxvf lrzsz-0.12.20.tar.gz && cd lrzsz-0.12.20
+
+./configure && make && make install
+
+
+
+cd /usr/bin
+
+ln -s /usr/local/bin/lrz rz
+
+ln -s /usr/local/bin/lsz sz
+
+
+Лђеп
+
+yum install -y lrzsz
