@@ -7,7 +7,7 @@ declare -A  map=([1]="一、" [2]="二、" [3]="三、" [4]="四、" [5]="五、
 >./README.md
 echo -e "\n\nwelcome to file lists" >> ./README.md
 echo "====" >> ./README.md
-echo -e "last_modify: `date "+%Y-%m-%d %H:%M:%S"`" >> ./README.md
+echo -e "<font color=red>last_modify: `date "+%Y-%m-%d %H:%M:%S"`</font>" >> ./README.md
 echo "-------" >> ./README.md
 
 dir_list=`ls -l | grep '^d' | awk '{print $9}'`
@@ -21,7 +21,7 @@ do
     file_list=`ls -l  $dir | awk '{print $9}'`
     for file in $file_list
     do
-          echo "####    $cnt.$file" >> ./README.md
+          echo ">> ####    $cnt.$file" >> ./README.md
           let cnt++
     done
 
