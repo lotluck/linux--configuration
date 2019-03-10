@@ -2,8 +2,7 @@
 
 welcome to file lists
 ====
-<font color='red'>last_modify: 2019-03-10 12:21:49</font>
-<span style="color: red"> Some red text </span>
+auto_update and last_modify: 2019-03-10 12:28:38
 -------
 ## 一、linux<br>
 >> ####    1.gbktoutf-8.sh
