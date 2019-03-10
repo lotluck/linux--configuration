@@ -29,7 +29,8 @@ last_modify: 2019-03-10 12:16:46
 
 
 ## 四、windows<br>
->>> ####    1.cmd获取曾经连接过wifi密码并重定向到d盘wifi_passswd文件.txt
+>> ####    1.cmd获取曾经连接过wifi密码并重定向到d盘wifi_passswd文件.txt
+>>     2.cmd获取曾经连接过wifi密码并重定向到d盘wifi_passswd文件.txt
 
 
 
