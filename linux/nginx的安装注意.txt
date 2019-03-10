@@ -1,0 +1,9 @@
+
+在安装nignx的时候可能会少几个模块，我的安装环境一直是centos7.0，根据下面的提示进行安装,有时候是两个，有时候是三个
+
+yum install pcre-devel
+
+yum install openssl-devel
+
+yum install zlib-devel
+

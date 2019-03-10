@@ -1,0 +1,19 @@
+
+auto BufNewFile *.cpp,*.[ch],*.sh exec ":call SetTitle()"
+
+
+func SetTitle()
+       call setline(1,"/*==========================================================")
+       call append(line("."),  "     > File Name: ".expand("%"))
+       call append(line(".")+1,"     > Author: ds")
+       call append(line(".")+2,"     > E-mail: 1219345363@qq.com")
+       call append(line(".")+3,"     > Create time: ".strftime("%c"))
+       call append(line(".")+4,"===========================================================*/")
+       call append(line(".")+6,"")
+
+
+       call append(line(".")+7,"")
+       autocmd BufNewFile * normal G
+endfunc
+
+
