@@ -1,2 +1,0 @@
-linux下直接装不了g++，需要
-yum install gcc-c++
